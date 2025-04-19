@@ -110,6 +110,7 @@ export const SignInCard = () => {
             />
             <Button
               className="w-full"
+              variant="secondary"
               type="submit"
               size="lg"
               disabled={isPending}

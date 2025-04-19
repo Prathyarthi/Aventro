@@ -11,7 +11,7 @@ import { CreatePrModal } from "@/features/projects/components/create-pr-modal";
 
 const DashboardLayout = ({ children }: PropsWithChildren) => {
   return (
-    <div className="min-h-screen dark:bg-gray-950 bg-gray-100">
+    <div className="min-h-screen">
       <AddCollaboratorToProjectModal />
       <CreateWorkspaceModal />
       <CreateProjectModal />

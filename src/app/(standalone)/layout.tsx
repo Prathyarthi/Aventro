@@ -7,7 +7,7 @@ import { ModeToggle } from "@/components/ui/ModeToggle";
 
 const StandaloneLayout = async ({ children }: PropsWithChildren) => {
   return (
-    <main className="min-h-screen bg-gray-100 dark:bg-gray-900">
+    <main className="min-h-screen bg-bg">
       <div className="mx-auto max-w-screen-2xl p-4">
         <nav className="flex justify-between items-center h-[73px]">
           <Link href="/">

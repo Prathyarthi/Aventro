@@ -30,16 +30,16 @@ export const ProjectSwitcher = () => {
   return (
     <div className="flex flex-col gap-y-2">
       <div className="flex items-center justify-between">
-        <p className="text-xs uppercase text-gray-500 dark:text-gray-400 font-semibold">
+        <p className="text-sm tracking-wide uppercase text-gray-500 dark:text-primary font-semibold">
           Projects
         </p>
         <RiAddCircleFill
           onClick={open}
-          className="size-5 text-gray-500 dark:text-gray-400 cursor-pointer hover:opacity-75 transition"
+          className="size-5 text-gray-500 dark:text-primary cursor-pointer hover:opacity-75 transition"
         />
       </div>
       <Select onValueChange={onSelect} value={projectId}>
-        <SelectTrigger className="w-full bg-slate-100 dark:bg-slate-800 font-medium p-1">
+        <SelectTrigger className="w-full bg-slate-100 dark:bg-bg font-medium p-1">
           <SelectValue placeholder="Select a project" className="font-bold" />
         </SelectTrigger>
         <SelectContent position="popper" className="">

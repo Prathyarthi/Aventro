@@ -53,8 +53,12 @@ const config: Config = {
           "5": "hsl(var(--chart-5))",
         },
       },
+      textColor: {
+        primary: "#FBFAFD",
+        secondary: "#E3E8EF",
+      },
       backgroundColor: {
-        bg: "#2A2A36",
+        bg: "#111111",
       },
       borderRadius: {
         lg: "var(--radius)",

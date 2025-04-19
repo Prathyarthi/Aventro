@@ -6,7 +6,6 @@ import { redirect } from "next/navigation";
 
 const SignIn = async () => {
   const user = await getCurrent();
-  console.log("User", user);
   if (!user) return <SignInCard />;
   if (!user.emailVerification) return <VerifyUserCard />;
   else {

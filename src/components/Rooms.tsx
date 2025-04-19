@@ -30,12 +30,12 @@ const Rooms = () => {
   return (
     <div className="flex flex-col gap-y-2">
       <div className="flex items-center justify-between">
-        <p className="text-xs uppercase text-gray-500 font-semibold  dark:text-gray-400">
+        <p className="text-sm tracking-wide uppercase text-gray-500 font-semibold  dark:text-primary">
           Rooms
         </p>
         <RiAddCircleFill
           onClick={open}
-          className="size-5 text-gray-500 dark:text-gray-400 cursor-pointer hover:opacity-75 transition"
+          className="size-5 text-gray-500 dark:text-primary cursor-pointer hover:opacity-75 transition"
         />
       </div>
       <ScrollArea className="flex-1">
